@@ -17,9 +17,9 @@ class CreateHeadquartersTable extends Migration
             $table->id();
 
             $table-> string('name', 50);
-            $table-> string('address');
-            $table-> integer('employee');
-            
+            $table-> string('address') -> comment('test');
+            $table-> integer('employee') -> unsigned();
+
             $table->timestamps();
         });
     }
