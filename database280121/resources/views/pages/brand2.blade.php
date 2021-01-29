@@ -2,10 +2,12 @@
 
 @section('content')
 
-<p>id: {{ $brand -> id}}</p>
-<p>name: {{ $brand -> name}}</p>
-<p>Headquarters: {{ $brand -> headquarter}}</p>
+<div class="box">
 
+  <p>id: {{ $brand -> id}}</p>
+  <p>name: {{ $brand -> name}}</p>
+  <p>Headquarters: {{ $brand -> headquarter}}</p>
 
+</div>
 
 @endsection

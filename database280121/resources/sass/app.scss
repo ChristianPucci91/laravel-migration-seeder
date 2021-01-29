@@ -1,1 +1,22 @@
-//
+
+footer,header {
+  background: grey;
+  border:1px solid black;
+  color:white;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.container {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .box {
+    background: lightblue;
+    border:1px solid blue;
+    margin:20px;
+    padding: 20px;
+  }
+}

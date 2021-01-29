@@ -10,11 +10,13 @@
   </head>
   <body>
 
-    <div class="container">
        @include('components.header')
-       @yield('content')
+
+       <div class="container">
+          @yield('content')
+       </div>
+
        @include('components.footer')
-    </div>
 
   </body>
 </html>
