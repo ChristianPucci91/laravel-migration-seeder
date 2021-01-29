@@ -11,7 +11,14 @@ class BrandController extends Controller
   public function index() {
 
    $brands = Brand::all();
-   dd($brands);
 
+   return view('pages.brand',compact('brands'));
+
+  }
+
+  public function show($id) {
+
+    dd($id);
+    
   }
 }
