@@ -18,7 +18,9 @@ class BrandController extends Controller
 
   public function show($id) {
 
-    dd($id);
-    
+    $brand = Brand::findOrFail($id);
+
+    return view('pages.brand2', compact('brand'));
+
   }
 }
