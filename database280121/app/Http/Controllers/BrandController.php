@@ -12,7 +12,7 @@ class BrandController extends Controller
 
    $brands = Brand::all();
 
-   return view('pages.brand',compact('brands'));
+   return view('pages.brand', compact('brands'));
 
   }
 
