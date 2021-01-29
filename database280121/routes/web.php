@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', 'BrandController@index')
+Route::get('brand', 'BrandController@index')
   -> name('brand-index');
 
 Route::get('brand/{id}', 'BrandController@show')
